@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fG6RvK4An5ilWloFINg6HMNz640diJooxxN5Q6ChyxD23PsZUOhKuTNa99TBNmTpqf5PO4oK/HEKQr84/UZp9Q==",
+  "success": true,
+  "projectFilePath": "/home/misayawf/NewSys/RiderProjects/GameServer/Common/Common.csproj",
+  "expectedPackageFiles": [
+    "/home/misayawf/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.3/microsoft.aspnetcore.app.ref.8.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

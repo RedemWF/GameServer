@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/misayawf/NewSys/RiderProjects/GameServer/GameServer/GameServer.csproj": {}
+  },
+  "projects": {
+    "/home/misayawf/NewSys/RiderProjects/GameServer/Common/Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/misayawf/NewSys/RiderProjects/GameServer/Common/Common.csproj",
+        "projectName": "Common",
+        "projectPath": "/home/misayawf/NewSys/RiderProjects/GameServer/Common/Common.csproj",
+        "packagesPath": "/home/misayawf/.nuget/packages/",
+        "outputPath": "/home/misayawf/NewSys/RiderProjects/GameServer/Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/misayawf/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.3, 8.0.3]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/misayawf/NewSys/RiderProjects/GameServer/GameServer/GameServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/misayawf/NewSys/RiderProjects/GameServer/GameServer/GameServer.csproj",
+        "projectName": "GameServer",
+        "projectPath": "/home/misayawf/NewSys/RiderProjects/GameServer/GameServer/GameServer.csproj",
+        "packagesPath": "/home/misayawf/.nuget/packages/",
+        "outputPath": "/home/misayawf/NewSys/RiderProjects/GameServer/GameServer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/misayawf/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/misayawf/NewSys/RiderProjects/GameServer/Common/Common.csproj": {
+                "projectPath": "/home/misayawf/NewSys/RiderProjects/GameServer/Common/Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.3, 8.0.3]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
